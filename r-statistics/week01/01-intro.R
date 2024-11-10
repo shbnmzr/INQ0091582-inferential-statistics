@@ -36,3 +36,8 @@ mean(cars[, 2])
 
 # Which row of cars has a a distance of 85?
 which(cars$dist == 85)
+
+# Read .csv file
+dataset <- read.csv("r-statistics/data/femaleMiceWeights.csv")
+nrow(dataset)
+ncol(dataset)
